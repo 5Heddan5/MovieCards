@@ -1,0 +1,33 @@
+.movie-list {
+  border: 1px solid black;
+  padding: 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.movie-header {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.movie-card p {
+    font-size: 1rem;
+}
+
+#rating {
+  margin-left: auto; 
+}
+
+#genre {
+    text-align: right;
+}
+
+#genre, #description {
+  margin-top: 5px; 
+}
+
